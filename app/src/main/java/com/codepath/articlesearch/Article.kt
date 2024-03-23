@@ -20,6 +20,10 @@ data class BaseResponse(
 @Keep
 @Serializable
 data class Article(
+    @SerialName("web_url")
+    val webUrl: String?,
+    @SerialName("pub_date")
+    val pubDate: String?,
     @SerialName("abstract")
     val abstract: String?,
     @SerialName("byline")

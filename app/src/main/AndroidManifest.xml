@@ -20,7 +20,7 @@
             android:exported="true" />
         <!-- Main Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ArticleApplication"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

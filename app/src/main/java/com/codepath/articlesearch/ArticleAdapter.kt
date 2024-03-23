@@ -22,7 +22,6 @@ class ArticleAdapter(private val context: Context, private val articles: List<Ar
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        // TODO: Get the individual article and bind to holder
         val article = articles[position]
         holder.bind(article)
     }
